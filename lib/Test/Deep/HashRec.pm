@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package Test::Deep::HashRec;
-# ABSTRACT:  test hash entries for requried and optonal fields
+# ABSTRACT:  test hash entries for required and optional fields
 
 =func hashrec
 
@@ -15,12 +15,12 @@ package Test::Deep::HashRec;
     "we got a valid record",
   );
 
-C<hashrec> returns a Test::Deep comparitor that asserts that:
+C<hashrec> returns a Test::Deep comparator that asserts that:
 
 =for :list
 * all required elements are present
 * nothing other than required and optional elements are present
-* all present elements match the comparitors given for them
+* all present elements match the comparator given for them
 
 If you pass a true C<allow_unknown> argument, then unknown elements will be
 permitted, and their values ignored.
