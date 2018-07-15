@@ -1,0 +1,4 @@
+Release history for {{$zilla->name}}
+
+{{$NEXT}}
+        - first release
