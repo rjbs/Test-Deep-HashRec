@@ -33,8 +33,9 @@ our @EXPORT = qw(hashrec);
 
 sub hashrec { Test::Deep::HashRec::Object->new(@_) };
 
+{
 package
-  Test::Deep::HashRec::Object {
+  Test::Deep::HashRec::Object;
 
 use Test::Deep::Cmp;
 use Test::Deep::HashElements;
